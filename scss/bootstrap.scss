@@ -1,0 +1,44 @@
+// Font
+$font-family-sans-serif: "Open Sans", sans-serif;
+$h1-font-size: 4.3rem;
+
+$primary: #c167ef;
+$secondary: #10bcee;
+$light: #f3f6f9;
+$dark: #2b3041;
+
+$font-sizes: (
+	1: 4rem,
+	2: 3rem,
+	3: 2.5rem,
+	4: 2rem,
+	5: 1.75rem,
+	6: 1.5rem,
+	7: 1.3rem,
+	8: 1rem,
+	9: 0.8rem,
+);
+
+$spacer: 1rem;
+$spacers: (
+	0: $spacer * 0,
+	1: $spacer * 0.25,
+	2: $spacer * 0.5,
+	3: $spacer * 1,
+	4: $spacer * 1.5,
+	5: $spacer * 3,
+	6: $spacer * 4.5,
+	7: $spacer * 6,
+	8: $spacer * 12,
+);
+$enable-negative-margins: true;
+
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: #10bcee;
+
+$nav-link-color: #eee;
+$nav-link-hover-color: #10bcee;
+
+$list-group-item-padding-y: $spacer * 1;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

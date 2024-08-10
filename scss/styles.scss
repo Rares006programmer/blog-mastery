@@ -1,0 +1,38 @@
+.logo {
+	width: 14rem;
+}
+
+header {
+	background-image: url("/images//header-background.jpg");
+	background-size: cover;
+}
+
+.section-download {
+	background-image: url("/images/download-background.jpg");
+	background-size: cover;
+}
+
+.social-link {
+	color: inherit;
+	transition: all 400ms;
+
+	&:hover {
+		color: #c167ef;
+	}
+}
+
+.navbar {
+	transition: all 400ms;
+}
+
+.navbar-sticky {
+	opacity: 0.9;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.map {
+	& iframe {
+		width: 100%;
+		height: 30rem;
+	}
+}
